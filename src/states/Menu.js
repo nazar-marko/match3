@@ -13,9 +13,9 @@ export default class Menu extends Phaser.State {
 
     create () {
 
-        // let audio = this.add.audio('bg-audio');
-        // audio.loop = true;
-        // audio.play();
+        let audio = this.add.audio('bg-audio');
+        audio.loop = true;
+        audio.play();
 
         this.button.anchor.setTo(0.5, -0.5);
         this.logo.anchor.setTo(0.5, 0);
